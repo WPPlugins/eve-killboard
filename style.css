@@ -1,0 +1,46 @@
+
+ /*
+ * Plugin Name: Eve Killboard Plugin
+ * Plugin URI: http://www.innsmouthenterprises.com/eve-killboard-plugin
+ * Version: 1.4
+ * Author: Zaine Maltis
+ * Description:  Pull latest kills from EVE Development Network Killboard, or rss from eve-kill.net 
+ *           	 and displays them on your wordpress blog as a widget
+ * 		 For info about the killboard, see: http://eve-id.net/forum/
+ *		 For info about the feed, see: http://www.eve-kill.net 
+ */
+
+img.victim_image {
+	margin: 0px;	
+}
+
+span.kill_image {
+	float: left;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+span.kill_text {
+	width: 100%;
+	font-size: 9pt;
+}
+
+span.kill_text_heading {
+	color: #B6BCC1;
+}
+
+span.kill_text a {
+	text-decoration: none;	
+}
+ul.kill {
+	list-style-type: none;
+}
+
+ul.kill_bull {
+	list-style-type: disc;
+}
+
+li.kill {
+	margin-top: 5px;
+	margin-bottom: 5px;	
+}
